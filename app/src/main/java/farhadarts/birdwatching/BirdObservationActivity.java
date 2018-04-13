@@ -202,7 +202,7 @@ public class BirdObservationActivity extends AppCompatActivity implements View.O
     protected void buildAlertMessageNoGps() {
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage("Please Turn ON your GPS Connection")
+        builder.setMessage("Please turn On your GPS Connection")
                 .setCancelable(false)
                 .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     public void onClick(final DialogInterface dialog, final int id) {
